@@ -1,0 +1,8 @@
+[
+    { "productId":1,"name":"Nokia" ,"price":20000 , "Descrip":"Mobile with 8 GB RAM and 16px camera"},
+    {"productId":2, "name":"Vivo" ,"price":26000 , "Descrip":"Mobile with 12 GB RAM and 26px camera"},
+    {"productId":3,"name":"MAX" ,"price":2000 , "Descrip":"Mobile with 5 GB RAM and 6px camera"},
+    {"productId":4, "name":"OPPO" ,"price":18000 , "Descrip":"Mobile with 8 GB RAM and 20px camera"}
+    ,{"productId":5, "name":"MOTO" ,"price":16000 , "Descrip":"Mobile with 16 GB RAM and 12px camera"}
+
+]

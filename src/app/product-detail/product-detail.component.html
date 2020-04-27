@@ -1,0 +1,14 @@
+
+
+<div style="padding: 10px;" *ngFor="let product of productList">
+    <span *ngIf="product.productId==productId">
+        <h6>Name :       {{     product.name}}</h6>
+        <h6>Price :      {{  product.price | currency}}</h6>
+        <h6>Id :         {{productId}}</h6>
+        <p>Description : {{product.Descrip}}</p>
+        <button type="button" class="btn btn-primary" (click)="addToCart(product)">Buy</button>
+    </span>
+    
+
+
+</div>

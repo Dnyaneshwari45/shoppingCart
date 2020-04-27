@@ -1,0 +1,9 @@
+<h2 >Product-List</h2>
+<div *ngFor="let product of productList">
+    <h5>
+        <a [title] ="product.name + ' details'" [routerLink]="['/products',product.productId]" routerLinkActive="router-link-active" 
+         >{{product.name}}</a></h5>
+        <p>Description : {{    product.Descrip}}</p>
+        <button type="button" class="btn btn-primary" (click) = "onShare()">Share</button>
+</div>
+

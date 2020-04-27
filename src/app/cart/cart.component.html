@@ -1,0 +1,11 @@
+<h3 style="padding:10px;text-align:left">Cart</h3>
+
+<div  *ngFor="let item of items">
+   <ul> <li style="width:40%;" class="list-group-item list-group-item-action list-group-item-info"><h6>Mobile : {{item.name}}</h6>
+
+    <h6>Price : {{item.price |currency  }}</h6></li>
+</ul> 
+
+</div>
+<a routerLink="/shipping">Shiping Prices</a>
+
